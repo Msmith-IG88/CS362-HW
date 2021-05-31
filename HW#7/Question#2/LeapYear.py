@@ -4,5 +4,7 @@ def leap_year(year):
     else:
         if ( int(year) % 4 == 0 and int(year) % 100 != 0 or int(year) % 400 == 0):
             return year + " is a leap year"
+        else:
+            return year + " is not a leap year"
 
-print(leap_year("2000"))
+print(leap_year("2001"))
