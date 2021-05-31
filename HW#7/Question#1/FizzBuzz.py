@@ -9,6 +9,9 @@ def Fizz_Buzz():
         elif i % 3 == 0:
             fizzbuzz.append("fizz")
             continue
+        elif i % 5 == 0:
+            fizzbuzz.append("buzz")
+            continue
         fizzbuzz.append(i)
     return fizzbuzz
 
