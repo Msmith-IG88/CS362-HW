@@ -4,7 +4,7 @@ def Fizz_Buzz():
         if i == 0:
             continue
         elif i % 3 == 0 and i % 5 == 0:
-            fizzbuzz.append(i)
+            fizzbuzz.append("fizzbuzz")
             continue
         elif i % 3 == 0:
             fizzbuzz.append("fizz")
