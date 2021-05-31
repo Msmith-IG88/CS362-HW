@@ -1,0 +1,15 @@
+1. For my social media software, using the TDD would be useful for the messaging system.
+
+  - Create a test that makes sure both users follow eachother
+    before messages can be exchanged.
+  - Create code that verifies one user is following the other
+    and vice a versa.
+  - Create a test that verifies the request message if only one 
+    user follows the other.
+  - Create a code that makes it so user properly recieve message
+    requests that they can accept or deny from users that they 
+    do not follow. 
+  - Create a test that verfies the encryption process of messages 
+    as they are being sent.
+  - Create code that correctly encrypts and decrypts messages as 
+    they are sent and recieved by users.
